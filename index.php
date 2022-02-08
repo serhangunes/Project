@@ -15,8 +15,8 @@
                 <input class="login" type="text" name="username">
                 <p>Password<br></p>
                 <input class="login" type="password" name="username">
-                <input class="buttonsmall pointer white noborder backblue mb-1 mt-1" type="submit" name="login" value="Login">
-                <input class="buttonsmall pointer white noborder nobackground black" type="submit" name="register" value="Register">
+                <a href="homepage.php"><input class="buttonsmall noborder backblue white mb-1 mt-1 center pointer" value="Login"></a>
+                <a class="black nodec font-1" href="register.php">Register</a>
             </form>
         </div>
     </body>

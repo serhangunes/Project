@@ -28,6 +28,12 @@
   .noborder {
     border: none;
   }
+  .center {
+    text-align: center;
+  }
+  .font-1 {
+    font-size: 0.8em;
+  }
   
   /* Background */
   .backgray {
