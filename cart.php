@@ -13,7 +13,7 @@
                 <div class="imgcart flex ml-1.5">
                     <img src="images/iphone13.png" alt="iPhone13">
                     <h2>iPhone 13</h2>
-                    <p class="amount flex mb-2 ml-1"><b>Amount</b></p>
+                    <p class="amount flex mb-2 ml-1 pr-1"><b>Amount</b></p>
                     <input class="amount flex ml-1 number mb-2" type="text" name="amount">
                     <label class="price mb-3"><b>&euro; &nbsp; <?php echo 32 . "," . 98; ?></b></label>
                 </div>
@@ -22,7 +22,7 @@
                 <div class="imgcart flex ml-1.5">
                     <img src="images/iphone13.png" alt="iPhone13">
                     <h2>iPhone 13</h2>
-                    <p class="amount flex mb-2 ml-1"><b>Amount</b></p>
+                    <p class="amount flex mb-2 ml-1 pr-1"><b>Amount</b></p>
                     <input class="amount flex ml-1 number mb-2" type="text" name="amount">
                     <label class="price mb-3"><b>&euro; &nbsp; <?php echo 32 . "," . 98; ?></b></label>
                 </div>
@@ -31,7 +31,7 @@
                 <div class="imgcart flex ml-1.5">
                     <img src="images/iphone13.png" alt="iPhone13">
                     <h2>iPhone 13</h2>
-                    <p class="amount flex mb-2 ml-1"><b>Amount</b></p>
+                    <p class="amount flex mb-2 ml-1 pr-1"><b>Amount</b></p>
                     <input class="amount flex ml-1 number mb-2" type="text" name="amount">
                     <label class="price mb-3"><b>&euro; &nbsp; <?php echo 32 . "," . 98; ?></b></label>
                 </div>
