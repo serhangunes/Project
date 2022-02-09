@@ -80,7 +80,6 @@ h2 {
 .white {
   color: white;
 }
-  
 /* Float */
 .right {
   float: right;
@@ -381,6 +380,7 @@ h2 {
 .headertext {
   width: 60%;
 }
+
 .hlabel {
   padding-right: 225px;
 }

@@ -1,5 +1,6 @@
 <?php
 include_once("connection.php");
+$accountCreated = false;
 if (isset($_POST['register'])){
     if (!empty($_POST['username'])){
         if (!empty($_POST['password'])){
@@ -35,7 +36,9 @@ if (isset($_POST['register'])){
                         mysqli_stmt_execute($stmt) or die(mysqli_error($conn));
                         mysqli_stmt_store_result($stmt) or die(mysqli_error($conn));
                         mysqli_stmt_close($stmt);
-                        header("Location: index.php");
+                        ?><div class="alert-success bold">Your account has been registered succesfully!</div><?php
+                        $accountCreated = true;
+
                     } else {
                         echo "<div class='alert-danger bold'>This username has already been taken, please try again.</div>";
                     }
@@ -63,6 +66,9 @@ if (isset($_POST['register'])){
         <?php include_once("components/header.html"); ?>
     </head>
     <body>
+        <?php if($accountCreated == true) {
+            echo "<a href='index.php'><div class='backgray bold p1 black cursor'>Go back to the login page</div></a>";
+        } ?>
         <div class="loginbox mt-10">
             <h2>Register</h2>
             <form method="post" action="register.php">
